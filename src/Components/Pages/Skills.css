@@ -1,0 +1,26 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.skills-items{
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 30 rgba(0,0,0,0.1);
+    padding:20px;
+    border: 1px solid transparent;
+
+}
+
+h3{
+    color: rgb(88, 39, 180);
+}
+h4{
+    color: rgb(156, 154, 154);
+}
+/* 
+@media (min-width: 768px) {
+    
+} */
