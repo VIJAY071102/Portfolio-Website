@@ -1,25 +1,24 @@
-.Projects{
-    border-radius: 10px;
-    margin: 20px;
-    background-color: #fff;
+.Projects {
+  border-radius: 10px;
+  margin: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent;
+}
+
+.E-comm-pro {
+  padding: 10px;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .Projects {
     display: flex;
-    flex-direction: column;
-    border: 1px solid transparent;
+    flex-wrap: wrap;
+  }
 }
 
-.E-comm-pro{
-    padding: 10px;
-    margin: 10px;
-}
-
-
-@media (min-width:768px) {
-    .Projects{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-h4{
-    color:#008080;
+h4 {
+  color: #008080;
 }
