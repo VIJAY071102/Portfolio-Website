@@ -10,10 +10,10 @@ function Hero() {
     <>
       <section className="hero-container">
         <div className="hero-content">
-          <h2>Building Digital Experiences that inspire</h2>
+          <h2>Transforming Code into Creativity</h2>
           <p>
-            passionate frontend developer| transforming ideas into seamless and
-            visually stunning web solutions
+            Innovative MERN stack developer | Delivering modern and intuitive
+            solutions for the digital age.
           </p>
         </div>
         <div className="hero-img">

@@ -1,60 +1,105 @@
-.contact-form-content{
-    width: 100%;
+.contact-form-content {
+  width: 100%;
+  padding: 1rem;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    grid-gap: 1.5rem;
+form {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1.5rem;
 }
 
-.name-container{
-    display: flex;
-    align-items: center;
-    grid-gap: 1.5rem;
+.name-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 form input,
-form textarea{
-    flex: 1;
-    width: 100%;
+form textarea {
+  flex: 1;
+  width: 100%;
+  font-size: 0.9rem;
+  color: #fff;
+  background: #130f2a;
+  border-radius: 0.6rem;
+  border: 1.5px solid #6751b9;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+form button {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  border: 1.5px solid #a892fe;
+  border-radius: 0.6rem;
+  background: linear-gradient(90deg, #a892fe 0%, #8064e8 100%);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+form button:hover {
+  color: #a892fe;
+  background: transparent;
+}
+
+@media (max-width: 450px) {
+  .name-container {
+    flex-direction: column;
+    border-radius: flex-start;
+  }
+  form input,
+  form textarea {
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+  }
+  form button {
     font-size: 0.9rem;
-    color: #fff;
-    background: #130f2a;
-    border-radius: 0.6rem;
-    border: 1.5px solid #6751b9;
-    padding: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+  }
 }
+@media (max-width: 768px) {
+  .contact-form-content {
+    padding: 0.8rem;
+  }
 
-form button{
-    font-size: 1rem;
-    font-weight: 500;
-    color: #fff;
-    border: 1.5px solid #a892fe;
-    border-radius: 0.6rem;
-    background: linear-gradient(90deg,#a892fe 0%,#8064e8 100%);
-    padding: all 0.3s ease;
-    cursor: pointer;
+  .name-container {
+    gap: 1rem;
+  }
+
+  form input,
+  form textarea {
+    font-size: 0.85rem;
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+  }
+
+  form button {
+    font-size: 0.95rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+  }
 }
+/* Media Query for 320px */
+@media (max-width: 320px) {
+  .name-container {
+    flex-direction: column; /* Stack fields vertically */
+    align-items: flex-start; /* Align to the start */
+    gap: 0.8rem;
+  }
 
-form button:hover{
-    color: #a892fe;
-    background: transparent;
-}
+  form input,
+  form textarea {
+    font-size: 0.8rem;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+  }
 
-@media(max-width:450px){
-    .name-container{
-        flex-direction: column;
-        border-radius: flex-start;
-    }
-    form input,
-    form textarea{
-        padding: 0.7rem;
-        border-radius: 0.3rem;
-    }
-    form button{
-        font-size: 0.9rem;
-        padding: 0.7rem;
-        border-radius: 0.3rem;
-    }
+  form button {
+    font-size: 0.85rem;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+  }
 }
