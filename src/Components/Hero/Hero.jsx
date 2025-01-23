@@ -8,7 +8,7 @@ import "./Hero.css";
 function Hero() {
   return (
     <>
-      <section className="hero-container">
+      <section className="hero-container" id="home">
         <div className="hero-content">
           <h2>Transforming Code into Creativity</h2>
           <p>

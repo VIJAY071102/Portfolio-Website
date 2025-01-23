@@ -6,7 +6,7 @@ import ContactMeCard from "./ContactMeCard/ContactMeCard";
 import ContactForm from "./ContactForm/ContactForm";
 function ContactMe() {
   return (
-    <section className="contact-container">
+    <section className="contact-container" id="contact">
       <h5>Contact Me</h5>
       <div className="contact-content">
         <div style={{ flex: 1 }}>

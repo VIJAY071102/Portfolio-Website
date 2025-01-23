@@ -1,6 +1,7 @@
 .container {
   max-width: 1024px !important;
   margin: 0 auto;
+
   position: relative;
   padding: 0 1rem;
   /* overflow-x: hidden; */
@@ -9,6 +10,7 @@
 @media (max-width: 768px) {
   .container {
     margin: 0 auto;
+
     padding: 0 1.5rem;
     max-width: 100%;
     overflow-x: hidden;

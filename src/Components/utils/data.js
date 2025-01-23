@@ -2,16 +2,13 @@ import frontend from "../../assets/images/fr.png";
 import backend from "../../assets/images/backend.png";
 import Tools from "../../assets/images/tools-icon.png";
 import softskills from "../../assets/images/soft-skills-icon.png";
-// import project1_img from "../../assets/images/project_1.svg";
-// import project2_img from "../../assets/images/project_2.svg";
-// import project3_img from "../../assets/images/project_3.svg";
-// import project4_img from "../../assets/images/project_4.svg";
-import project5_img from "../../assets/images/project_5.svg";
+// import project5_img from "../../assets/images/project_5.svg";
 import project6_img from "../../assets/images/project_6.svg";
 import project1 from "../../assets/images/project_1.png";
 import project2 from "../../assets/images/project_2.png";
 import project3 from "../../assets/images/project_3.png";
 import project4 from "../../assets/images/project_4.png";
+import chatbot from "../../assets/images/chat-bot.png";
 export const SKILLS = [
   {
     title: "Frontend",
@@ -82,30 +79,36 @@ export const project = [
     w_no: 1,
     w_name: "school-management-system",
     w_img: project1,
+    url: "",
   },
   {
     w_no: 2,
-    w_name: "to-do-list",
-    w_img: project2,
+    w_name: "Real-Time-Chat-Bot",
+    w_img: chatbot,
+    url: "https://vijay071102.github.io/Real-Time-Chat-Application-with-AI/",
   },
   {
     w_no: 3,
-    w_name: "portfolio-website",
-    w_img: project3,
+    w_name: "to-do-list",
+    w_img: project2,
+    url: "https://vijay071102.github.io/Todo-List/",
   },
   {
     w_no: 4,
+    w_name: "portfolio-website",
+    w_img: project3,
+    url: "#",
+  },
+  {
+    w_no: 5,
     w_name: "ecommerce-website",
     w_img: project4,
+    url: "",
   },
-  // {
-  //   w_no: 5,
-  //   w_name: "to-do-list",
-  //   w_img: project5_img,
-  // },
-  // {
-  //   w_no: 6,
-  //   w_name: "to-do-list",
-  //   w_img: project6_img,
-  // },
+  {
+    w_no: 6,
+    w_name: "to-do-list",
+    w_img: project6_img,
+    url: "",
+  },
 ];

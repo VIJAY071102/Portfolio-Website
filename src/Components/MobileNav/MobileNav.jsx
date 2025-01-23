@@ -1,5 +1,6 @@
 import React from "react";
 import "./MobileNav.css";
+import logo from "../../assets/images/logo.png";
 
 function MobileNav({ isOpen, toggleMenu }) {
   const handleLinkClick = (e) => {
@@ -7,7 +8,7 @@ function MobileNav({ isOpen, toggleMenu }) {
     toggleMenu(); // Close the mobile menu after clicking a link
     const targetId = e.target.getAttribute("href");
     const target = document.querySelector(targetId);
-    
+
     if (target) {
       target.scrollIntoView({ behavior: "smooth" });
     } else {
@@ -21,7 +22,7 @@ function MobileNav({ isOpen, toggleMenu }) {
       onClick={toggleMenu}
     >
       <div className="mobile-menu-container">
-        <img className="logo" src="" alt="logo" />
+        <img className="logo" src={logo} alt="logo" />
 
         <ul>
           <li>
